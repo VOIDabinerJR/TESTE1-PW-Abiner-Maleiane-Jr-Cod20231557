@@ -1,63 +1,123 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Education Landing Page</title>
-  <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landing Page Estilizada</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-
- 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Our Education System <span>Inspires You More.</span></h1>
-      <p>Modern curriculum and experienced teachers dedicated to your success.</p>
-      <ul>
-        <li>✔ Innovative Methodologies</li>
-        <li>✔ Quality Content</li>
-        <li>✔ Personalized Support</li>
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="logo">⚡GPSCarrinha</div>
+      <ul class="nav-links">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#caracteristicas">Funcionalidades</a></li>
       </ul>
-      <button>Learn More</button>
+      <a href="#" class="btn login-btn">Login</a>
     </div>
-    <div class="hero-image">
-      <img src="https://via.placeholder.com/300x300" alt="Students">
+  </nav>
+
+  <!-- HERO -->
+  <header class="hero" id="inicio">
+    <div class="container">
+      <h1>Transforme sua <span>presença online</span></h1>
+      <p>Design moderno, responsivo e pronto para produção.</p>
+      <div class="actions">
+        <a href="#" class="btn primary">Comece Agora</a>
+        <a href="#" class="btn outline">Saiba Mais</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- SOBRE -->
+  <section class="about" id="sobre">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>
+        Somos apaixonados por criar experiências digitais incríveis. Combinamos
+        design elegante e tecnologia de ponta para entregar resultados excepcionais.
+      </p>
     </div>
   </section>
 
- 
-  <section class="stats">
-    <div class="stat-item">500+<br><span>Courses</span></div>
-    <div class="stat-item">1900+<br><span>Students</span></div>
-    <div class="stat-item">750+<br><span>Reviews</span></div>
-    <div class="stat-item">30+<br><span>Teachers</span></div>
+  <!-- FUNCIONALIDADES -->
+  <section class="features" id="caracteristicas">
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/1055/1055646.png" alt="Performance" />
+      <h3>Alta Performance</h3>
+      <p>Sites rápidos e otimizados para buscadores.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Responsivo" />
+      <h3>Design Responsivo</h3>
+      <p>Experiência impecável em todos os dispositivos.</p>
+    </div>
+    <div class="feature-card">
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721278.png" alt="Tecnologia" />
+      <h3>Tecnologia Moderna</h3>
+      <p>Utilizamos o que há de mais atual no mercado.</p>
+    </div>
   </section>
 
+  <section id="mapa" class="map-section">
+    <div class="container">
+      <h2>Onde Estamos</h2>
+      <p>Visite nosso escritório ou entre em contato conosco a qualquer momento.</p>
+      <div class="map-container">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.716464716558!2d-43.18692458469301!3d-22.997088284971807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997d8f33aa06f5%3A0x5fdc4b234f6eb641!2sPraia%20de%20Copacabana!5e0!3m2!1spt-BR!2sbr!4v1676152807157!5m2!1spt-BR!2sbr"
+          width="100%"
+          height="450"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </div>
+  </section>
   
-  <section class="testimonials">
-    <h2>What Our Students Say<span>'s</span></h2>
-    <div class="testimonial-cards">
-      <div class="card">⭐⭐⭐⭐⭐<br>"Great experience!"<br>- John</div>
-      <div class="card">⭐⭐⭐⭐<br>"Helpful teachers."<br>- Anna</div>
-      <div class="card">⭐⭐⭐⭐⭐<br>"Highly recommend!"<br>- Mike</div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-col">
+        <h4>Empresa</h4>
+        <ul>
+          <li><a href="#">Sobre Nós</a></li>
+          <li><a href="#">Carreiras</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contato</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Suporte</h4>
+        <ul>
+          <li><a href="#">Ajuda</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Termos de Uso</a></li>
+          <li><a href="#">Política de Privacidade</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Siga-nos</h4>
+        <div class="social-links">
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145802.png" alt="Facebook" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145812.png" alt="Instagram" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145807.png" alt="Twitter" /></a>
+          <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/145/145804.png" alt="LinkedIn" /></a>
+        </div>
+      </div>
     </div>
-  </section>
-
-
-  <section class="teachers">
-    <h2>Meet With Our <span>Teachers</span></h2>
-    <div class="teacher-cards">
-      <div class="teacher">👩 Jane T.<br>Math</div>
-      <div class="teacher">👩 Sara A.<br>Science</div>
-      <div class="teacher">👨 Daniel C.<br>History</div>
-      <div class="teacher">👩 Olivia H.<br>Language</div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Sua Empresa. Todos os direitos reservados.</p>
     </div>
-  </section>
-
-  <footer>
-    <p>www.DownloadNewThemes.com</p>
   </footer>
+  
 
-  <script src="index.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
